@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Sitio privado demostrativo: habilitar indexacion tras confirmar el catalogo y publicar para clientes.
