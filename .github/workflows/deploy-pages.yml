@@ -1,16 +1,15 @@
-name: Deploy to GitHub Pages
+name: CI Verification
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
-
-permissions:
-  contents: write
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  deploy:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -26,15 +25,3 @@ jobs:
           node --check dist/catalogo.js
           node --check dist/app.js
           node tests/catalog.test.cjs
-
-      - name: Publish dist/ to gh-pages branch
-        run: |
-          touch dist/.nojekyll
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan gh-pages-temp
-          git rm -rf --cached .
-          cp -r dist/. .
-          git add index.html styles.css catalogo.js app.js robots.txt sitemap.xml .nojekyll assets/
-          git commit -m "Deploy dist to GitHub Pages"
-          git push origin HEAD:refs/heads/gh-pages --force
