@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171715">
+  <meta name="description" content="LEE-ACH: una boutique de perfumería para explorar fragancias árabes, de diseñador y nicho. Decants de 3, 5, 10 y 30 ml. Catálogo comercial próximamente.">
+  <meta property="og:title" content="LEE-ACH | Tu esencia, tu sello">
+  <meta property="og:description" content="Descubre la experiencia LEE-ACH: perfumería selecta, decants y guía olfativa.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://elias040720.github.io/Lee-Ach/assets/hero-perfumeria.webp">
+  <link rel="canonical" href="https://elias040720.github.io/Lee-Ach/">
+  <link rel="icon" type="image/png" href="assets/logo-lee-ach.png">
+  <link rel="preload" as="image" href="assets/hero-perfumeria.webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="catalogo.js" defer></script>
+  <script src="app.js" defer></script>
+  <title>LEE-ACH | Perfumería selecta</title>
+</head>
+<body>
+  <a class="skip-link" id="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="announcement"><span class="announcement-mark">✦</span> Una nueva manera de descubrir tu próximo aroma <span class="announcement-separator">·</span> <strong>Catálogo en preparación</strong></div>
+  <header class="site-header" id="header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#/" aria-label="LEE-ACH — Inicio"><span class="brand-crown">♛</span><span>LEE<span class="brand-hyphen">—</span>ACH</span><small>PARFUMS</small></a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a data-nav="home" href="#/">Inicio</a>
+        <a data-nav="catalogo" href="#/catalogo">Fragancias</a>
+        <a data-nav="decants" href="#/decants">Decants</a>
+        <a data-nav="recomendador" href="#/recomendador">Descubre tu aroma</a>
+        <a data-nav="guia" href="#/guia">Journal</a>
+        <a data-nav="nosotros" href="#/nosotros">LEE-ACH</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="search-trigger" type="button" aria-label="Buscar fragancias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button>
+        <button class="icon-button cart-trigger" id="cart-trigger" type="button" aria-label="Abrir mi selección"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 5h2l2 11h11l3-8H6"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span id="cart-count" class="cart-count" hidden>0</span></button>
+        <button class="icon-button menu-trigger" id="menu-trigger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+      </div>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Navegación móvil" hidden>
+      <a href="#/">Inicio</a><a href="#/catalogo">Fragancias</a><a href="#/decants">Decants</a><a href="#/recomendador">Descubre tu aroma</a><a href="#/guia">Journal</a><a href="#/nosotros">LEE-ACH</a><a href="#/contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <section class="route home-page" data-route="home">
+      <div class="hero">
+        <img class="hero-image" src="assets/hero-perfumeria.webp" alt="Composición editorial de frascos de perfume y pequeños atomizadores sobre piedra" width="1536" height="1024">
+        <div class="hero-wash"></div>
+        <div class="wrap hero-content">
+          <div class="eyebrow light"><span class="eyebrow-line"></span> EL ARTE DE ENCONTRAR TU ESENCIA</div>
+          <h1>Tu esencia,<br><em>tu sello.</em></h1>
+          <p>Hay aromas que se descubren. Otros, que te definen. Explora el universo de la perfumería árabe, de diseñador y nicho, a tu manera.</p>
+          <div class="hero-buttons"><a class="button button-light" href="#/catalogo">Explorar fragancias <span aria-hidden="true">↗</span></a><a class="button button-outline-light" href="#/recomendador">Encuentra tu aroma <span aria-hidden="true">→</span></a></div>
+          <div class="hero-meta"><span>LEE-ACH PARFUMS</span><span>01 / LA EXPERIENCIA</span></div>
+        </div>
+        <button class="scroll-cue" id="scroll-collections" type="button" aria-label="Desplazarse a las colecciones"><span></span> Descubre</button>
+      </div>
+
+      <div class="credentials"><div class="wrap credentials-grid"><div><strong>03 / 05 / 10 / 30</strong><span>Presentaciones en ml</span></div><div><strong>ÁRABE · DISEÑADOR · NICHO</strong><span>Tres universos olfativos</span></div><div><strong>PARA CADA ESTILO</strong><span>Masculino · femenino · unisex</span></div></div></div>
+
+      <section id="colecciones" class="section section-collections wrap">
+        <div class="section-heading"><div><div class="eyebrow">EL UNIVERSO LEE-ACH</div><h2>Distintas formas<br>de <em>sentir.</em></h2></div><p>El perfume es una expresión personal. Explora nuestras tres líneas y encuentra el carácter que mejor acompaña cada momento.</p></div>
+        <div class="collection-grid">
+          <a class="collection-card collection-arab" href="#/catalogo?linea=arabe"><div class="collection-number">01 / ORIENTAL</div><div><span>Intensidad y profundidad</span><h3>Perfumería<br><em>árabe</em></h3><span class="collection-link">Explorar colección ↗</span></div></a>
+          <a class="collection-card collection-designer" href="#/catalogo?linea=disenador"><div class="collection-number">02 / CONTEMPORÁNEA</div><div><span>Iconos de estilo</span><h3>Perfumería<br><em>de diseñador</em></h3><span class="collection-link">Explorar colección ↗</span></div></a>
+          <a class="collection-card collection-niche" href="#/catalogo?linea=nicho"><div class="collection-number">03 / DE AUTOR</div><div><span>La expresión singular</span><h3>Perfumería<br><em>nicho</em></h3><span class="collection-link">Explorar colección ↗</span></div></a>
+        </div>
+      </section>
+
+      <section class="section section-decant-story" id="descubre-decant">
+        <div class="decant-photo"><img src="assets/decants-editorial.webp" alt="Atomizadores de viaje de cristal en una composición editorial cálida" loading="lazy" width="1024" height="1536"></div>
+        <div class="decant-copy"><div class="eyebrow">EL LUJO DE DESCUBRIR</div><h2>Una gran historia.<br><em>En pequeños formatos.</em></h2><p>No siempre necesitas un frasco entero para vivir una fragancia. Descubre los tamaños de decant que LEE-ACH ofrece y elige tu forma de explorar.</p><div class="size-grid"><div><strong>03<small>ml</small></strong><span>Primer encuentro</span></div><div><strong>05<small>ml</small></strong><span>Conocer el aroma</span></div><div><strong>10<small>ml</small></strong><span>Seguir descubriendo</span></div><div><strong>30<small>ml</small></strong><span>Acompañarte más</span></div></div><a class="text-link" href="#/decants">Conoce los decants <span>↗</span></a></div>
+      </section>
+
+      <section class="section wrap section-curation"><div class="section-heading compact"><div><div class="eyebrow">INSPIRACIÓN OLFATIVA</div><h2>Fragancias para<br><em>cada momento.</em></h2></div><a class="text-link" href="#/catalogo">Explorar todos los perfiles ↗</a></div><p class="preview-note">Vista de inspiración: estos perfiles son ilustrativos y no representan productos con stock confirmado.</p><div id="home-preview" class="product-grid preview-grid"></div></section>
+
+      <section class="section discovery-panel"><div class="wrap discovery-content"><div class="eyebrow light">TU FIRMA OLFATIVA</div><h2>Hay un aroma<br>que habla <em>de ti.</em></h2><p>Fresco o especiado, sutil o intenso. Responde unas preguntas y descubre perfiles que conectan con tus preferencias.</p><a class="button button-light" href="#/recomendador">Descubrir mi aroma <span>↗</span></a><span class="discovery-decoration">L/A</span></div></section>
+
+      <section class="section journal-teaser wrap"><div class="journal-teaser-copy"><div class="eyebrow">EL JOURNAL</div><h2>Más allá<br>del <em>perfume.</em></h2><p>Guías para explorar las familias olfativas, entender las concentraciones y elegir con más confianza.</p><a class="text-link" href="#/guia">Entrar al journal ↗</a></div><div class="journal-teaser-photo"><img src="assets/perfume-editorial.webp" alt="Frasco de perfume sin marca sobre piedra y tejido cálido" loading="lazy" width="1024" height="1536"></div></section>
+    </section>
+
+    <section class="route inner-page" data-route="catalogo" hidden>
+      <div class="inner-hero wrap"><div class="eyebrow">EXPLORA A TU MANERA</div><h1>El universo<br><em>de las fragancias.</em></h1><p>Descubre perfiles olfativos y filtra por estilo. Los productos comerciales se incorporarán aquí cuando LEE-ACH confirme su catálogo.</p></div>
+      <div class="catalog-notice wrap"><span class="notice-icon">i</span><div><strong>Catálogo de demostración</strong><p>Los perfiles de esta página son ilustrativos; no son productos disponibles para compra. Precios, marcas y existencias reales están pendientes de confirmación.</p></div></div>
+      <div class="catalog-layout wrap"><aside class="filter-panel" id="filter-panel"><div class="filter-head"><h2>Filtrar</h2><button type="button" class="link-button" id="clear-filters">Limpiar filtros</button></div><label class="filter-label" for="search-input">Buscar perfil o nota</label><input class="search-input" id="search-input" type="search" placeholder="Ej. ámbar, floral, fresco…" autocomplete="off"><label class="filter-label" for="line-filter">Línea</label><select id="line-filter"><option value="todos">Todas las líneas</option><option value="arabe">Árabe</option><option value="disenador">Diseñador</option><option value="nicho">Nicho</option></select><label class="filter-label" for="audience-filter">Perfil comercial</label><select id="audience-filter"><option value="todos">Todos los perfiles</option><option value="masculino">Masculino</option><option value="femenino">Femenino</option><option value="unisex">Unisex</option></select><label class="filter-label" for="family-filter">Familia olfativa</label><select id="family-filter"><option value="todos">Todas las familias</option><option value="citrica">Cítrica</option><option value="amaderada">Amaderada</option><option value="oriental">Oriental</option><option value="floral">Floral</option><option value="gourmand">Gourmand</option><option value="aromatica">Aromática</option></select><p class="filter-footnote">Las categorías de género son orientativas: cualquier fragancia puede gustarle a cualquier persona.</p></aside><div class="catalog-main"><div class="catalog-toolbar"><span id="result-count" aria-live="polite">6 perfiles</span><div class="toolbar-right"><label for="sort-filter">Ordenar</label><select id="sort-filter"><option value="relevancia">Relevancia</option><option value="nombre">Nombre A–Z</option><option value="linea">Línea</option></select></div></div><div id="catalog-grid" class="product-grid"></div><div id="catalog-empty" class="empty-state" hidden><h3>No encontramos coincidencias.</h3><p>Prueba con otros términos o restablece los filtros.</p><button class="button button-dark" id="empty-reset" type="button">Restablecer filtros</button></div></div></div>
+    </section>
+
+    <section class="route inner-page" data-route="decants" hidden><div class="split-page"><div class="split-visual"><img src="assets/decants-editorial.webp" alt="Atomizadores de perfume en diferentes formatos sobre piedra" width="1024" height="1536"></div><div class="split-copy"><div class="eyebrow">UN UNIVERSO EN CADA GOTA</div><h1>El arte<br>del <em>decant.</em></h1><p>Un decant es una pequeña cantidad de una fragancia transferida desde un frasco a un atomizador. Es una forma de explorar aromas antes de decidir cuánto deseas utilizar.</p><p>LEE-ACH ofrece cuatro capacidades, sujetas a la disponibilidad de cada perfume.</p><div class="size-list"><div><strong>3 ml</strong><span>Para una primera impresión</span></div><div><strong>5 ml</strong><span>Para conocerlo durante varios usos</span></div><div><strong>10 ml</strong><span>Para incorporarlo a tu rutina</span></div><div><strong>30 ml</strong><span>Para quien ya encontró un favorito</span></div></div><p class="fine-print">Las descripciones son orientativas. El número de aplicaciones depende del atomizador y del uso.</p><a href="#/catalogo" class="button button-dark">Explorar perfiles <span>↗</span></a></div></div><section class="section wrap"><div class="eyebrow">PREGUNTAS FRECUENTES</div><h2>Lo esencial, <em>claro.</em></h2><div class="faq-list"><details><summary>¿Todos los perfumes tienen los cuatro tamaños?</summary><p>No necesariamente. Cada fragancia puede tener presentaciones diferentes, que se mostrarán cuando se confirme el inventario comercial.</p></details><details><summary>¿Un decant es lo mismo que una miniatura oficial?</summary><p>No. Un decant es una porción de perfume transferida a otro envase; una miniatura oficial es un producto presentado así por su fabricante.</p></details><details><summary>¿Puedo comprar un frasco completo?</summary><p>La disponibilidad de frascos completos se informará cuando LEE-ACH confirme el catálogo oficial.</p></details></div></section></section>
+
+    <section class="route inner-page" data-route="producto" hidden><div class="wrap product-detail" id="product-detail"></div></section>
+
+    <section class="route inner-page quiz-page" data-route="recomendador" hidden><div class="quiz-intro wrap"><div class="eyebrow">LEE-ACH / DISCOVERY</div><h1>Descubre tu<br><em>firma olfativa.</em></h1><p>Tu preferencia es el punto de partida. Cuéntanos qué te atrae y te mostraremos perfiles de inspiración, sin suponer lo que debes usar.</p></div><div class="wrap"><div id="quiz-app" class="quiz-card" aria-live="polite"></div></div></section>
+
+    <section class="route inner-page journal-page" data-route="guia" hidden><div class="inner-hero wrap"><div class="eyebrow">LEE-ACH JOURNAL</div><h1>El lenguaje<br><em>de los aromas.</em></h1><p>Una guía sencilla para encontrar tu camino en la perfumería.</p></div><div class="journal-content wrap"><article class="journal-article"><span>01 / FUNDAMENTOS</span><h2>¿Qué es un decant?</h2><p>Un decant es una cantidad de perfume extraída del frasco original y colocada en un atomizador separado. Permite explorar distintas fragancias sin adquirir necesariamente el frasco completo.</p><p>En LEE-ACH los formatos anunciados son 3, 5, 10 y 30 ml. La disponibilidad de cada tamaño depende de la referencia y se confirmará en el catálogo.</p></article><article class="journal-article"><span>02 / CONCENTRACIONES</span><h2>EDT, EDP, Parfum: ¿qué significan?</h2><p>Son denominaciones habituales de concentración, pero no garantizan por sí solas una duración o intensidad concreta. La fórmula, el entorno y la percepción individual también influyen en la experiencia.</p><p>Conviene probar una fragancia en distintas ocasiones antes de elegir una presentación mayor.</p></article><article class="journal-article"><span>03 / FAMILIAS OLFATIVAS</span><h2>Encuentra tus notas favoritas.</h2><p>Los perfiles cítricos suelen sentirse luminosos; los amaderados, secos o envolventes; los florales, suaves o expresivos; los gourmand, dulces y reconfortantes. Son descripciones orientativas, no reglas universales.</p><p>La mejor elección es la que conecte con tus gustos, independientemente de cómo se comercialice la fragancia.</p></article></div><div class="journal-cta"><h2>¿Por dónde empezar?</h2><a class="button button-dark" href="#/recomendador">Descubre tu aroma ↗</a></div></section>
+
+    <section class="route inner-page" data-route="nosotros" hidden><div class="about-layout"><div class="about-logo"><img src="assets/logo-lee-ach.png" alt="Propuesta de logotipo de LEE-ACH con monograma y corona" width="1536" height="1024"></div><div class="about-copy"><div class="eyebrow">LA IDENTIDAD LEE-ACH</div><h1>Una marca.<br><em>Infinitas formas de ser.</em></h1><p>LEE-ACH reúne tres universos de perfumería —árabe, de diseñador y nicho— con una propuesta de exploración en decants de 3, 5, 10 y 30 ml.</p><p>Porque una fragancia no necesita responder a etiquetas. Puede acompañar tu energía, tu memoria y cada versión de ti.</p><p class="fine-print">El relato histórico y las fotografías del negocio se incorporarán cuando sean proporcionados y validados por la marca.</p><a class="button button-dark" href="#/catalogo">Explorar fragancias ↗</a></div></div></section>
+
+    <section class="route inner-page" data-route="contacto" hidden><div class="contact-layout wrap"><div><div class="eyebrow">HABLEMOS DE AROMAS</div><h1>El siguiente aroma<br>empieza con <em>una conversación.</em></h1><p>Los canales oficiales de atención, la cobertura de envíos y las políticas comerciales de LEE-ACH están pendientes de confirmación.</p></div><div class="contact-panel"><h2>Información comercial</h2><div><span>WhatsApp</span><strong>Pendiente de confirmar</strong></div><div><span>Correo electrónico</span><strong>Pendiente de confirmar</strong></div><div><span>Envíos y entregas</span><strong>Pendiente de confirmar</strong></div><p>No ingreses datos personales en formularios que todavía no cuentan con un canal de recepción verificado.</p></div></div></section>
+
+    <section class="route inner-page" data-route="notfound" hidden><div class="wrap notfound"><span>404</span><h1>Esta nota aún<br>no existe.</h1><p>Vuelve a la portada o explora el universo LEE-ACH.</p><a href="#/" class="button button-dark">Volver al inicio</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-top"><div><a href="#/" class="footer-brand">LEE—ACH</a><p>Tu esencia, tu sello.</p><small>Perfumería árabe · Diseñador · Nicho</small></div><div><h3>Explorar</h3><a href="#/catalogo">Fragancias</a><a href="#/decants">Decants</a><a href="#/recomendador">Descubre tu aroma</a></div><div><h3>LEE-ACH</h3><a href="#/nosotros">Nuestra esencia</a><a href="#/guia">Journal</a><a href="#/contacto">Contacto</a></div><div><h3>Información</h3><span>Catálogo comercial en preparación</span><span>Precios y disponibilidad por confirmar</span><span>Sin compras habilitadas</span></div></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> LEE-ACH. Todos los derechos reservados.</span><span>Una experiencia de perfumería selecta.</span></div></footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div><aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden><div class="drawer-header"><div><div class="eyebrow">TU UNIVERSO PERSONAL</div><h2 id="cart-title">Mi selección <span id="drawer-count">(0)</span></h2></div><button type="button" class="close-button" id="close-cart" aria-label="Cerrar selección">×</button></div><div class="drawer-body" id="cart-items"></div><div class="drawer-footer"><div class="cart-disclaimer"><strong>Modo exploración</strong><p>Sin precios ni stock confirmados. Esta selección no es una compra ni una reserva.</p></div><button id="copy-selection" class="button button-dark full" type="button">Copiar mi selección</button><button id="clear-cart" class="link-button centered" type="button">Vaciar selección</button></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

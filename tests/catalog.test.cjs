@@ -1,0 +1,17 @@
+const assert = require('node:assert/strict');
+global.window = {};
+require('../dist/catalogo.js');
+const {LEEACH_CATALOG:catalog, LEEACH_SETTINGS:settings} = window;
+assert.equal(settings.brand,'LEE-ACH');
+assert.deepEqual(settings.decantSizes,[3,5,10,30]);
+assert.equal(settings.checkoutEnabled,false);
+assert.equal(settings.whatsapp,null);
+assert.equal(settings.catalogVerified,false);
+assert.equal(catalog.length,6);
+assert.equal(new Set(catalog.map(p=>p.id)).size,catalog.length);
+assert.ok(catalog.every(p=>p.sample && Array.isArray(p.notes) && p.notes.length > 0));
+assert.ok(catalog.every(p=>['arabe','disenador','nicho'].includes(p.category)));
+assert.ok(catalog.every(p=>['masculino','femenino','unisex'].includes(p.audience)));
+assert.ok(catalog.every(p=>p.sizes.every(s=>settings.decantSizes.includes(s))));
+assert.ok(catalog.every(p=>!p.variants || Object.keys(p.variants).length===0));
+console.log('PASS: configuracion, tamano, perfiles y estado comercial seguro');

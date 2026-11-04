@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify scripts and catalog tests
+        run: |
+          node --check dist/catalogo.js
+          node --check dist/app.js
+          node tests/catalog.test.cjs
+
+      - name: Publish dist/ to gh-pages branch
+        run: |
+          touch dist/.nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages-temp
+          git rm -rf --cached .
+          cp -r dist/. .
+          git add index.html styles.css catalogo.js app.js robots.txt sitemap.xml .nojekyll assets/
+          git commit -m "Deploy dist to GitHub Pages"
+          git push origin HEAD:refs/heads/gh-pages --force

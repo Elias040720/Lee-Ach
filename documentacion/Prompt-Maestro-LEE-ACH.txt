@@ -1,0 +1,1235 @@
+# MISIÓN MAESTRA LEE-ACH: INVESTIGACIÓN, DIRECCIÓN CREATIVA, UX/UI Y DESARROLLO DE UNA WEB PREMIUM DE PERFUMERÍA
+
+## 0. BRIEF DE MARCA CONFIRMADO — CONTEXTO PRIORITARIO
+
+Esta misión corresponde a **LEE-ACH**, una marca que comercializa **perfumes y decants de fragancias masculinas, femeninas y unisex**. Sus tres grandes líneas son la **perfumería árabe, de diseñador y nicho**. Los tamaños de decants comunicados por el propietario son **3 ml, 5 ml, 10 ml y 30 ml**: no mostrar otros tamaños como ofertas reales. La venta de frascos completos se contempla en la arquitectura, pero sus referencias, tamaños, precios y disponibilidad requieren confirmación individual.
+
+Se entregaron **dos imágenes del logotipo**, una negra y otra blanca, con monograma estilizado, corona, la palabra LEE-ACH y la leyenda **FOR MEN**. Los archivos originales son referencias oficiales provistas por el propietario, pero las imágenes actuales son PNG con fondo opaco y pueden presentar recortes/contraste insuficientes; no se debe fingir que son vectores o archivos transparentes listos para todas las superficies.
+
+**Decisión de identidad APROBADA por el propietario:** la leyenda FOR MEN no representa toda la oferta de LEE-ACH. La **identidad principal del sitio será LEE-ACH sin FOR MEN**, conservando el monograma estilizado, la corona y el nombre. El propietario aprobó la adaptación visual propuesta y la dirección creativa Editorial Essence. Preparar una versión principal neutra en formatos adecuados para web, sin destruir ni sobrescribir las imágenes originales. La leyenda FOR MEN puede mantenerse únicamente en una variante secundaria destinada a la colección masculina, si resulta útil; nunca en el logo principal del sitio. Validar visualmente que el rediseño conserve el carácter del símbolo recibido y que su legibilidad sea óptima. No afirmar que LEE-ACH vende exclusivamente para hombres ni excluir la colección femenina o unisex.
+
+### Datos confirmados
+
+| Campo | Dato confirmado |
+|---|---|
+| Marca | LEE-ACH |
+| Público/oferta | Fragancias masculinas, femeninas y unisex |
+| Líneas comerciales | Árabes, diseñador y nicho |
+| Presentaciones decant | 3 ml, 5 ml, 10 ml, 30 ml |
+| Identidad recibida | Logo blanco y logo negro con leyenda FOR MEN; originales preservados |
+| Identidad principal aprobada | LEE-ACH sin FOR MEN; conservar monograma y corona |
+| Dirección creativa aprobada | LEE-ACH Editorial Essence |
+
+### Datos pendientes; nunca inventarlos
+
+Inventario real, fotografías y nombres exactos de productos, precios en PEN, stock por tamaño, disponibilidad de frascos completos, WhatsApp comercial, redes verificadas, correo, política de envíos, medios de pago, condiciones de cambio/devolución, pruebas de autenticidad, historia de la marca y promociones. Incorporar estos datos solo tras su validación y mantener las funciones independientes que no dependan de ellos.
+
+### Dirección de diseño aprobada para desarrollar
+
+**Concepto creativo aprobado: LEE-ACH Editorial Essence — La esencia de tu identidad.** Perfumería editorial y contemporánea, abierta a todos los estilos; lujo sobrio en vez de clichés de lujo masculino. Fotografía con vidrio, reflejos controlados, piedra, metal y luz cálida, sin asignar códigos cromáticos rígidos a géneros. Paleta base aprobada, sujeta a ajustes técnicos de contraste: carbón `#171715`, marfil `#F6F2EA`, crema `#E8DFD2`, ámbar `#AA7750`, oliva oscuro `#3E4037`. Tipografía editorial de alto contraste para titulares y sans serif legible para interfaz; seleccionar fuentes con licencias adecuadas, optimizar su descarga y definir alternativas del sistema.
+
+**Hero conceptual:** fotografía editorial de producto a un lado, espacio negativo y titular destacado al otro; en móvil, recorte vertical intencional y texto fuera de zonas de alto detalle. Copy provisional: «Tu esencia, tu sello». Subtítulo: «Descubre decants de 3, 5, 10 y 30 ml. Fragancias árabes, de diseñador y nicho para cada estilo». CTAs: «Explorar fragancias» y «Descubrir mi aroma». Usar texto e imágenes reales de LEE-ACH cuando se disponga de ellos. No implementar un slider automático sin evidencia de utilidad; elegir una composición estática editorial como punto de partida por simplicidad y rendimiento.
+
+**Navegación principal recomendada:** Inicio · Decants · Perfumes · Colecciones (Árabes, Diseñador, Nicho) · Descubre tu aroma · Guía olfativa · Nuestra historia. Accesos permanentes a búsqueda y carrito. En catálogo, proporcionar filtros independientes por **perfil comercial masculino/femenino/unisex**, línea de perfumería, marca, notas, estilo olfativo, ocasión, precio, tamaño y stock. El filtro de género es orientativo y nunca debe impedir encontrar una fragancia fuera de esa etiqueta; ofrecer siempre «Todos» y «Sin preferencia».
+
+**Jerarquía recomendada de Inicio:** hero → acceso visual a tres colecciones → explicación clara de los cuatro tamaños → selección curada de productos reales → recomendador → packs (solo si existen) → historia/proceso verificable → guía breve → CTA final. No apilar todas las secciones posibles ni repetir banners. Presentar las colecciones masculina, femenina y unisex como accesos útiles al catálogo, sin necesidad de dividir todo el sitio en tres experiencias separadas.
+
+**Experiencia del decant:** selector de tamaños exactos 3/5/10/30 ml con precio y disponibilidad individual; tabla simple «¿Qué tamaño elegir?» con usos orientativos, no equivalencias exactas de pulverizaciones; fotografía de escala real cuando exista. Una presentación agotada puede estar deshabilitada mientras otras siguen vendiéndose. Un producto con al menos una variante válida y disponible debe poder publicarse aunque las demás variantes no existan. No añadir una opción ficticia de 2 o 15 ml.
+
+**Proceso comercial inicial:** carrito persistente y resumen de solicitud por WhatsApp únicamente cuando se confirme el número de la marca; no simular pagos, entregas, reservas ni descuentos. Utilizar PEN; diferenciar importes confirmados de estimaciones. Priorizar rápido acceso móvil a tamaños, precios, búsqueda y CTA.
+
+**Criterio de éxito visual:** una boutique diferenciada por su composición, calidad fotográfica, tipografía y microinteracciones, con excelente legibilidad y rendimiento en móviles de gama media. Documentar y justificar decisiones de identidad, diseño y contenido; no confundir referencias externas con material autorizado de la marca.
+
+Las decisiones de este brief prevalecen sobre cualquier ejemplo genérico posterior del documento.
+
+## 1. ROL Y OBJETIVO PRINCIPAL
+
+Actúa como un equipo multidisciplinario de nivel senior integrado por:
+
+1. Director creativo especializado en marcas de lujo.
+2. Diseñador UX/UI senior especializado en comercio electrónico.
+3. Diseñador web especializado en experiencias visuales premium.
+4. Desarrollador frontend senior.
+5. Arquitecto de software y especialista en sitios web estáticos.
+6. Especialista en animaciones, microinteracciones y motion design.
+7. Especialista en marketing digital y optimización de conversiones (CRO).
+8. Especialista en SEO técnico y posicionamiento orgánico.
+9. Consultor especializado en perfumería árabe, de diseñador y nicho.
+10. Ingeniero QA especializado en pruebas visuales, funcionales, accesibilidad y rendimiento.
+
+Tu misión es **investigar, conceptualizar, diseñar, desarrollar, probar y preparar para publicación una página web completa para una marca dedicada a vender decants y perfumes originales**.
+
+No busco una plantilla genérica ni una página básica.
+
+Quiero una experiencia digital elegante, cálida, sofisticada, memorable y visualmente impresionante, comparable en calidad de diseño con las mejores marcas internacionales de perfumería.
+
+La página debe combinar:
+
+- Diseño premium y lujo contemporáneo.
+- Identidad visual auténtica.
+- Experiencia comercial profesional.
+- Fotografía de producto de alta calidad.
+- Animaciones elegantes y fluidas.
+- Navegación intuitiva.
+- Contenido editorial atractivo.
+- Herramientas de recomendación de fragancias.
+- Catálogo completo y organizado.
+- Excelente experiencia en dispositivos móviles.
+- Velocidad, accesibilidad, SEO y seguridad.
+
+**No te limites a presentar ideas o documentación: después de investigar y definir la arquitectura, desarrolla una implementación funcional, visualmente terminada y comprobable.**
+
+---
+
+## 2. INVESTIGACIÓN REAL DE LA MARCA
+
+La marca tiene presencia en TikTok:
+
+https://vt.tiktok.com/ZS9yv2PmsBNJL-jHdTC/
+
+### Tu primera responsabilidad
+
+Investiga este perfil y extrae toda la información pública y verificable.
+
+Identifica:
+
+- Ratificación del nombre comercial conocido: LEE-ACH, y grafía exacta en sus canales.
+- Nombre de usuario.
+- Concordancia entre los logotipos entregados y los activos mostrados en redes; documentar cualquier discrepancia.
+- Colores corporativos.
+- Tipografía o estilo gráfico existente.
+- Descripción y propuesta de valor.
+- Productos que ofrece.
+- Categorías de perfumes.
+- Formatos de decants.
+- Promociones publicadas.
+- Canales de contacto.
+- WhatsApp comercial, si está publicado.
+- Ubicación y cobertura de envíos.
+- Estilo de comunicación.
+- Público objetivo.
+- Contenido audiovisual disponible.
+- Fotografías y videos que representen la marca.
+- Posicionamiento y personalidad comercial.
+
+Revisa los videos públicos relevantes para entender cómo presenta los productos, qué tipo de contenido publica y qué estilo conecta con su audiencia.
+
+### Identidad visual
+
+Si el logo oficial está disponible, obtén una versión de calidad adecuada, respetando los derechos de uso y la identidad de la marca.
+
+Prepara las variantes necesarias:
+
+- Logo principal.
+- Logo para fondos claros.
+- Logo para fondos oscuros.
+- Isotipo o símbolo, si existe.
+- Favicon.
+- Versión optimizada para dispositivos móviles.
+
+No reemplaces una identidad real por un logo inventado.
+
+Si el acceso a TikTok está bloqueado o el enlace no permite identificar la marca, busca otras fuentes oficiales. Si continúa siendo imposible, solicita el enlace directo del perfil o una captura donde se vea el nombre y logo.
+
+Diferencia la información confirmada de la pendiente de validación.
+
+**Nunca inventes testimonios, precios, stock, números de contacto, promociones ni atributos comerciales.**
+
+---
+
+## 3. BENCHMARKING PROFUNDO DE WEBSITES
+
+Investiga cuidadosamente estas páginas:
+
+### Competidores y referencias peruanas
+
+1. https://www.avilaparfums.com/
+2. https://louviparfums.com/
+3. https://passimperu.com/
+4. https://elixiaparfum.com/
+5. https://cruzial.pe/
+
+### Referencias internacionales
+
+Investiga también:
+
+- Byredo.
+- Le Labo.
+- Diptyque.
+- Maison Francis Kurkdjian.
+- Parfums de Marly.
+- Creed Fragrances.
+- Jo Malone London.
+- Xerjoff.
+- Kilian Paris.
+- Otras páginas reconocidas por su diseño premium y experiencia de compra.
+
+No te limites a esta lista. Busca referencias adicionales que aporten soluciones visuales, funcionales y comerciales relevantes.
+
+### Qué debes investigar
+
+Analiza cada referencia desde una perspectiva profesional:
+
+**Diseño:**
+
+- Composición del hero.
+- Dirección de arte y fotografía.
+- Uso de tipografía.
+- Combinaciones cromáticas.
+- Proporciones y espaciado.
+- Jerarquía visual.
+- Presentación de productos.
+- Tarjetas comerciales.
+- Distribución de categorías.
+- Diseño editorial.
+- Transiciones y animaciones.
+- Experiencia móvil.
+
+**UX/UI:**
+
+- Navegación.
+- Menús y megamenús.
+- Búsqueda.
+- Filtros.
+- Fichas de producto.
+- Selección de variantes.
+- Carrito.
+- Lista de deseos.
+- Recomendaciones.
+- Proceso de compra.
+- Tratamiento de productos agotados.
+- Confianza comercial.
+
+**Marketing y conversión:**
+
+- Propuesta de valor.
+- Llamadas a la acción.
+- Promociones.
+- Estrategias de fidelización.
+- Venta cruzada.
+- Packs.
+- Storytelling.
+- Contenido educativo.
+- Integración con redes sociales.
+
+### Entregable de investigación
+
+Crea una matriz comparativa que indique:
+
+- Marca analizada.
+- Elemento destacado.
+- Ventaja.
+- Problema o limitación observada.
+- Oportunidad de mejora.
+- Cómo se implementará en nuestro proyecto.
+
+Toda observación debe sustentarse en evidencia verificable.
+
+**Inspírate en principios de diseño y experiencias de uso, pero no copies códigos, imágenes, logos, textos ni diseños completos de terceros.**
+
+---
+
+# 4. DIRECCIÓN ARTÍSTICA: LUJO CÁLIDO Y CONTEMPORÁNEO
+
+La personalidad visual debe transmitir:
+
+**Exclusividad + elegancia + calidez + sofisticación + confianza + deseo.**
+
+Quiero una experiencia que se sienta como entrar a una boutique de perfumería de alta gama.
+
+Evita:
+
+- Diseños genéricos de e-commerce.
+- Plantillas visualmente repetitivas.
+- Exceso de bordes y tarjetas.
+- Degradados exagerados.
+- Animaciones innecesarias.
+- Colores chillones.
+- Iconografía inconsistente.
+- Tipografía demasiado pequeña.
+- Exceso de información en pantalla.
+- Secciones saturadas.
+- Apariencia artificial o poco cuidada.
+
+### Propuesta de identidad visual
+
+Investiga y presenta tres direcciones visuales, por ejemplo:
+
+1. **LEE-ACH Editorial Essence (recomendado):** fotografía cinematográfica, marfil y carbón, titulares amplios, materiales táctiles y editorial neutra en género.
+2. **LEE-ACH Warm Atelier:** arena, crema, café, ámbar y fotografía de proximidad del proceso de decantado.
+3. **LEE-ACH Night Collection:** fondos oscuros, iluminación puntual y acentos refinados para campañas específicas; no usarlo como único código visual masculino.
+
+Desarrolla Editorial Essence como dirección ya aprobada por el propietario. Está autorizada una adaptación del logo principal que elimine la leyenda FOR MEN y preserve monograma, corona y denominación LEE-ACH; guarda por separado los originales sin alterarlos.
+
+No impongas dorado y negro únicamente porque se trata de perfumes. El lujo debe comunicarse mediante la composición, la fotografía, la tipografía, la calidad de interacción y el cuidado de los detalles.
+
+### Sistema de diseño
+
+Define:
+
+- Paleta cromática.
+- Tipografías principales y secundarias.
+- Escala tipográfica responsive.
+- Sistema de espaciado.
+- Grid y contenedores.
+- Botones.
+- Campos de búsqueda.
+- Filtros.
+- Tarjetas.
+- Menús.
+- Modalidades de navegación.
+- Sombras y superficies.
+- Estados hover, focus, active y disabled.
+- Tratamiento de fotografías.
+- Iconografía.
+- Variables CSS reutilizables.
+- Reglas de movimiento y transiciones.
+
+Mantén consistencia absoluta en todas las páginas.
+
+---
+
+# 5. HERO PRINCIPAL: PRIORIDAD MÁXIMA DE DISEÑO
+
+Esta es una de las partes más importantes del proyecto.
+
+Me gustan especialmente los heroes de:
+
+- Ávila Parfums.
+- Passim Perú.
+
+Investiga cómo están diseñados y cómo mejorarlos.
+
+Quiero un hero extraordinariamente profesional, elegante y visualmente atractivo.
+
+### Características deseadas
+
+- Fotografía de perfumes de calidad editorial.
+- Composición cinematográfica.
+- Iluminación cálida y sofisticada.
+- Gran tipografía con excelente jerarquía.
+- Mensaje breve, memorable y comercial.
+- Llamadas a la acción claramente visibles.
+- Integración visual con el header.
+- Diseño responsive específico para móviles.
+- Excelente contraste y legibilidad.
+- Transiciones suaves.
+- Interacciones refinadas.
+
+Evalúa la posibilidad de incorporar un slider editorial de hasta tres colecciones:
+
+**Slide 1 — La esencia de LEE-ACH**
+
+Presentación de la identidad y propuesta principal.
+
+**Slide 2 — Perfumería nicho**
+
+Presentación de fragancias exclusivas y sofisticadas.
+
+**Slide 3 — Perfumería árabe y diseñador**
+
+Descubrimiento de colecciones y aromas destacados.
+
+No implementes un carrusel solo por estética. Decide, mediante criterios UX, si una composición única o varios slides ofrecen mejor experiencia.
+
+Para LEE-ACH, **la primera propuesta es un hero editorial único y estático**. Si los activos verificados justifican varias campañas, documenta la razón para introducir navegación manual o slider. Las colecciones masculina, femenina y unisex deben poder encontrarse desde la página principal sin asumir que FOR MEN representa toda la tienda.
+
+### Animaciones del hero
+
+Considera:
+
+- Entrada elegante del título.
+- Revelado progresivo de imágenes.
+- Transición suave entre fotografías.
+- Movimiento sutil de elementos.
+- Botones con microinteracciones.
+- Indicadores y controles accesibles.
+- Efectos de profundidad discretos.
+
+Evita animaciones pesadas.
+
+Si implementas reproducción automática, permite pausarla, respeta las preferencias de movimiento reducido y detén las animaciones cuando la sección no esté visible.
+
+El hero debe verse tan cuidado en celulares como en pantallas grandes.
+
+---
+
+# 6. ARQUITECTURA COMPLETA DEL SITIO
+
+Investiga y define la arquitectura de información más adecuada.
+
+Como punto de partida, considera estas páginas:
+
+## A. Inicio
+
+Diseña una página principal con una narrativa visual cuidadosamente estructurada.
+
+Secciones propuestas:
+
+1. Barra superior con información comercial relevante.
+2. Header premium con logo y navegación.
+3. Hero principal editorial.
+4. Introducción a la marca.
+5. Accesos visuales a las principales colecciones.
+6. Más vendidos.
+7. Nuevos ingresos.
+8. Selección de perfumes nicho.
+9. Selección de perfumes árabes.
+10. Selección de perfumes de diseñador.
+11. Packs y promociones.
+12. Recomendador de fragancias.
+13. Colección destacada de temporada.
+14. Beneficios y garantías verificadas.
+15. Proceso de preparación de decants.
+16. Contenido educativo.
+17. Integración con TikTok.
+18. Opiniones reales verificadas, si existen.
+19. Preguntas frecuentes destacadas.
+20. Llamada a la acción final.
+21. Footer completo.
+
+Esta lista es una propuesta, no una orden de acumular veinte bloques.
+
+Investiga cuáles son realmente necesarios y define el mejor orden para generar interés, confianza y conversión sin saturar al visitante.
+
+## B. Catálogo
+
+Página profesional para explorar todos los productos.
+
+Categorías:
+
+- Perfumes árabes.
+- Perfumes de diseñador.
+- Perfumes nicho.
+- Fragancias masculinas.
+- Fragancias femeninas.
+- Fragancias unisex.
+- Perfumes completos o sellados.
+- Decants.
+- Packs.
+- Promociones.
+- Novedades.
+- Más vendidos.
+
+Permite clasificaciones adicionales por:
+
+- Marca.
+- Familia olfativa.
+- Perfil comercial de la fragancia: masculino, femenino, unisex; ofrecer «Todos» y no imponer categorías restrictivas a quien compra.
+- Ocasión.
+- Temporada.
+- Concentración.
+- Precio.
+- Disponibilidad.
+- Tamaño.
+- Notas principales.
+
+### Funciones de catálogo
+
+- Búsqueda funcional.
+- Filtros combinables.
+- Ordenamiento por precio, nombre y relevancia.
+- Vista de tarjetas responsive.
+- Etiquetas de novedades y promociones.
+- Estado de disponibilidad.
+- Vista rápida cuando aporte utilidad.
+- Selección de presentación.
+- Acceso a ficha detallada.
+- Añadir al carrito.
+- Lista de favoritos local, si se justifica.
+- Estado vacío con recomendaciones de recuperación.
+
+Los productos disponibles deben poder localizarse con facilidad.
+
+Los agotados deben identificarse claramente y, por defecto, aparecer después de los disponibles, sin desaparecer del catálogo salvo que así lo defina la marca.
+
+## C. Ficha individual de perfume
+
+Cada perfume necesita una página completa con:
+
+- Nombre.
+- Marca.
+- Categoría.
+- Galería de fotografías.
+- Descripción comercial.
+- Historia o inspiración de la fragancia, cuando exista información fiable.
+- Familia olfativa.
+- Notas de salida.
+- Notas de corazón.
+- Notas de fondo.
+- Concentración.
+- Perfil aromático.
+- Ocasiones recomendadas.
+- Temporada sugerida.
+- Intensidad percibida, si hay datos fiables.
+- Tamaños disponibles.
+- Precio por presentación.
+- Disponibilidad por variante.
+- Selector de cantidad.
+- Botón de compra o consulta.
+- Información de envío.
+- Información sobre autenticidad.
+- Productos relacionados.
+- Alternativas olfativas, cuando estén sustentadas.
+
+### Variantes
+
+Los **únicos tamaños confirmados para decants LEE-ACH** son:
+
+- 3 ml.
+- 5 ml.
+- 10 ml.
+- 30 ml.
+
+El frasco completo es una modalidad adicional **solo cuando el negocio confirme que lo vende para esa referencia**. No ofrecer como reales 2 ml, 15 ml ni otros tamaños no aprobados.
+
+La web debe mostrar exclusivamente las presentaciones disponibles para ese producto.
+
+**Regla indispensable:** un perfume puede venderse como frasco completo aunque no tenga decants, y viceversa.
+
+Cada variante debe tener su propio precio, disponibilidad y presentación.
+
+No inventes precios ni características.
+
+## D. Packs y promociones
+
+Diseña una sección comercial visualmente atractiva para:
+
+- Packs de descubrimiento.
+- Tríos de decants.
+- Combos por familia olfativa.
+- Packs de perfumes árabes.
+- Selecciones premium.
+- Packs para regalos.
+- Promociones de temporada.
+
+Permite construir un pack personalizado cuando existan reglas comerciales verificadas.
+
+Los descuentos deben corresponder a precios reales.
+
+## E. Recomendador de perfumes
+
+Esta sección debe ser especialmente profesional.
+
+Nombre conceptual sugerido:
+
+**Descubre tu firma olfativa.**
+
+Desarrolla un cuestionario interactivo que permita encontrar fragancias según las preferencias del visitante.
+
+Preguntas sugeridas:
+
+1. ¿Para qué ocasión buscas un perfume?
+2. ¿Prefieres aromas frescos, dulces, amaderados, florales, cítricos u orientales?
+3. ¿Buscas algo discreto o intenso?
+4. ¿En qué clima lo utilizarás?
+5. ¿Qué presupuesto aproximado tienes?
+6. ¿Prefieres perfumería árabe, de diseñador o nicho?
+7. ¿Qué perfumes te han gustado anteriormente?
+8. ¿Quieres probar un decant o comprar un frasco completo?
+9. ¿Prefieres explorar fragancias comercializadas como masculinas, femeninas, unisex o no tienes preferencia? No deduzcas esta respuesta por identidad del visitante.
+
+### Resultado
+
+Al terminar, muestra:
+
+- Tres fragancias recomendadas, si hay coincidencias suficientes.
+- Motivo concreto de cada recomendación.
+- Notas olfativas relevantes.
+- Presentaciones disponibles.
+- Precio verificado.
+- Botón para ver producto.
+- Opción de añadir al carrito.
+- Posibilidad de repetir el cuestionario.
+
+Implementa un motor de recomendaciones basado en reglas y datos comprobables.
+
+No finjas una IA avanzada cuando el sitio no tenga integración real con un modelo.
+
+Si no existen suficientes coincidencias, informa al usuario y ofrece alternativas.
+
+## F. Contenido editorial
+
+Crea una sección de contenido tipo revista premium.
+
+Posibles nombres:
+
+- El universo del perfume.
+- Journal.
+- Notas de autor.
+- Guía olfativa.
+- Historias de fragancias.
+
+Temáticas:
+
+- Qué es un decant.
+- Cómo elegir entre 3 ml, 5 ml, 10 ml y 30 ml.
+- Perfumes masculinos, femeninos y unisex: etiquetas comerciales y elección según preferencias reales.
+- Diferencias entre EDP, EDT, Parfum y Extrait.
+- Perfumería árabe frente a perfumería de diseñador.
+- Introducción a la perfumería nicho.
+- Familias olfativas.
+- Cómo elegir un perfume.
+- Cómo conservar fragancias.
+- Perfumes para distintas ocasiones.
+- Recomendaciones según temporada.
+- Cómo descubrir nuevas fragancias.
+
+Utiliza imágenes, jerarquías tipográficas y maquetación editorial.
+
+El contenido debe aportar valor real y facilitar el posicionamiento orgánico.
+
+Evita recomendaciones falsas, promesas de duración garantizada o afirmaciones científicas sin fundamento.
+
+## G. Nuestra historia
+
+Página dedicada a:
+
+- Origen de la marca.
+- Filosofía.
+- Pasión por la perfumería.
+- Propuesta de valor.
+- Compromiso de autenticidad.
+- Proceso de selección.
+- Preparación de pedidos.
+- Fotografías y videos reales.
+
+Construye una narrativa emocional sin inventar hechos.
+
+## H. Contacto y atención
+
+Incluye, cuando estén confirmados:
+
+- WhatsApp comercial.
+- TikTok.
+- Instagram.
+- Correo electrónico.
+- Horario de atención.
+- Cobertura de envíos.
+- Formulario de contacto si existe un servicio adecuado para procesarlo.
+
+## I. Información y políticas
+
+Prepara páginas claras para:
+
+- Preguntas frecuentes.
+- Envíos y entregas.
+- Cambios y devoluciones.
+- Términos y condiciones.
+- Política de privacidad.
+- Información sobre decants y autenticidad.
+
+No inventes reglas comerciales ni textos legales definitivos.
+
+Investiga las obligaciones aplicables en Perú y señala lo que requiere validación del responsable del negocio.
+
+---
+
+# 7. EXPERIENCIA DE COMPRA
+
+La web debe permitir que el visitante encuentre perfumes, compare presentaciones y prepare su pedido fácilmente.
+
+### Flujo principal
+
+Inicio → Catálogo → Producto → Selección de tamaño → Carrito → Confirmación de pedido.
+
+### Carrito
+
+Implementa:
+
+- Añadir productos.
+- Eliminar productos.
+- Cambiar cantidades.
+- Mostrar presentaciones.
+- Actualizar subtotales.
+- Total calculado correctamente.
+- Mensajes de disponibilidad.
+- Persistencia local razonable.
+- Diseño responsive.
+- Estados vacíos y errores.
+
+### Finalización
+
+Como primera versión, considera un carrito con confirmación mediante WhatsApp.
+
+Debe generar un mensaje estructurado con:
+
+- Productos seleccionados.
+- Presentaciones.
+- Cantidades.
+- Precios confirmados.
+- Total referencial.
+- Solicitud de confirmación de disponibilidad y envío.
+
+No presentes esto como pago automático ni como una orden confirmada.
+
+Si la empresa necesita pagos online, inventario centralizado, cuentas o historial de pedidos, plantea una fase adicional con backend y proveedor de pagos adecuado.
+
+No simules pagos ni recojas tarjetas bancarias en HTML estático.
+
+Minimiza los datos personales recopilados y evita incluir información sensible innecesaria en enlaces.
+
+---
+
+# 8. DISEÑO RESPONSIVE PROFESIONAL
+
+Diseña verdaderamente para:
+
+- Celulares pequeños.
+- Celulares estándar.
+- Celulares grandes.
+- Tablets.
+- Laptops.
+- Monitores de escritorio.
+- Pantallas de alta resolución.
+
+No basta con reducir el tamaño de los elementos.
+
+Adapta:
+
+- Composición del hero.
+- Recortes de fotografías.
+- Tipografía.
+- Espaciados.
+- Navegación.
+- Filtros.
+- Carruseles.
+- Tarjetas.
+- Interacciones táctiles.
+- Carrito.
+- Formularios.
+
+### Navegación móvil
+
+Investiga e implementa una experiencia móvil premium:
+
+- Menú accesible.
+- Búsqueda sencilla.
+- Acceso al carrito.
+- Categorías fáciles de explorar.
+- Controles táctiles suficientemente grandes.
+- Navegación sin desbordamientos horizontales.
+
+Evita elementos que funcionen únicamente con hover.
+
+---
+
+# 9. ANIMACIONES Y MICROINTERACCIONES
+
+Diseña un sistema de movimiento elegante y coherente.
+
+Considera:
+
+- Revelado de contenido al entrar en pantalla.
+- Aparición progresiva de imágenes.
+- Transiciones entre estados.
+- Hover refinado en productos.
+- Interacciones del menú.
+- Animaciones de botones.
+- Feedback al añadir al carrito.
+- Transiciones de filtros.
+- Cambios suaves entre imágenes.
+- Indicadores de carga discretos.
+- Estados de éxito y error.
+
+### Reglas obligatorias
+
+1. Prioriza siempre fluidez y rendimiento.
+2. Usa CSS cuando sea suficiente.
+3. Utiliza JavaScript solo cuando aporte valor.
+4. Evita animaciones pesadas que bloqueen el hilo principal.
+5. No mantengas animaciones complejas ejecutándose fuera de pantalla.
+6. No generes barras de scroll inesperadas.
+7. Respeta `prefers-reduced-motion`.
+8. Evita scroll-jacking.
+9. No reproduzcas videos automáticamente con sonido.
+10. Evita movimientos que distraigan al usuario durante la compra.
+
+Si propones GSAP, Motion u otra biblioteca, justifica su necesidad y el impacto en el bundle.
+
+No incorpores WebGL o escenas 3D únicamente para impresionar.
+
+---
+
+# 10. IMÁGENES Y MATERIAL VISUAL
+
+La fotografía es fundamental para transmitir lujo.
+
+Busca y selecciona imágenes auténticas, profesionales y relevantes.
+
+Prioridad:
+
+1. Fotografías oficiales proporcionadas por la marca.
+2. Material autorizado del negocio.
+3. Fotografías de producto con derechos de uso adecuados.
+4. Recursos propios creados específicamente para el proyecto.
+5. Imágenes temporales claramente identificadas cuando falten materiales.
+
+No utilices fotografías robadas de competidores.
+
+### Calidad de imágenes
+
+- Resolución adecuada.
+- Recortes consistentes.
+- Fondos limpios.
+- Iluminación profesional.
+- Formatos optimizados.
+- Versiones específicas para móvil.
+- Alt text descriptivo.
+- Carga diferida cuando corresponda.
+- Dimensiones declaradas para evitar saltos visuales.
+
+El hero debe tener prioridad de carga.
+
+Si generas imágenes editoriales con IA, evita alterar engañosamente las características reales de los perfumes, sus etiquetas o envases.
+
+---
+
+# 11. ARQUITECTURA TÉCNICA
+
+El proyecto debe mantenerse en GitHub.
+
+Prefiero HTML, CSS y JavaScript, pero puedes proponer tecnologías adicionales cuando aporten una ventaja concreta.
+
+### Requisitos
+
+- Código limpio.
+- Arquitectura organizada.
+- Componentes reutilizables.
+- CSS mantenible.
+- JavaScript modular.
+- Diseño responsive.
+- Optimización de recursos.
+- Sin dependencias innecesarias.
+- Facilidad para ampliar el catálogo.
+- Facilidad de mantenimiento.
+- Compatibilidad con alojamiento estático.
+
+Evalúa HTML, CSS y JavaScript nativos frente a Astro u otras herramientas de generación estática.
+
+Selecciona la opción más apropiada para una tienda rápida, de bajo costo y fácil mantenimiento.
+
+### GitHub y alojamiento
+
+El código fuente estará almacenado en GitHub.
+
+**Importante:** GitHub Pages no debe utilizarse como alojamiento de producción de una tienda comercial, dado que sus condiciones restringen ese uso.
+
+Investiga una alternativa gratuita adecuada, como Cloudflare Pages o Netlify, verificando sus condiciones comerciales, límites y requisitos vigentes.
+
+El objetivo es:
+
+- Código versionado en GitHub.
+- Publicación gratuita, si el plan lo permite.
+- URL pública.
+- HTTPS.
+- Integración con repositorio.
+- Despliegues reproducibles.
+- Posibilidad futura de dominio personalizado.
+
+Si utilizas HTML estático sin compilación, conserva `index.html` en la raíz del directorio publicado.
+
+Si utilizas Astro u otra herramienta, configura correctamente el directorio de salida y documenta cómo desplegarlo.
+
+No dependas de rutas locales absolutas.
+
+### Gestión de productos
+
+Mantén los productos en una fuente de datos estructurada y fácil de editar.
+
+Por ejemplo:
+
+- Identificador.
+- Marca.
+- Nombre.
+- Descripción.
+- Categoría.
+- Familia olfativa.
+- Notas.
+- Imágenes.
+- Presentaciones.
+- Precios.
+- Disponibilidad.
+- Etiquetas.
+- Características de recomendación.
+
+Si no existe backend, documenta que los cambios de precio y stock se realizan en el repositorio y necesitan una nueva publicación.
+
+No crees un panel administrativo falso que aparente guardar datos remotamente.
+
+---
+
+# 12. SEO Y MARKETING DIGITAL
+
+Implementa una base SEO profesional:
+
+- Títulos únicos.
+- Metadescripciones.
+- URLs descriptivas.
+- Jerarquía correcta de encabezados.
+- HTML semántico.
+- Open Graph.
+- Tarjetas para compartir en redes.
+- Sitemap.
+- Robots.txt.
+- Canonical URLs.
+- Datos estructurados apropiados.
+- Optimización de imágenes.
+- Navegación interna.
+- Contenido editorial.
+- Páginas de producto indexables.
+- Buen rendimiento móvil.
+
+Utiliza LEE-ACH, sin presentar FOR MEN como descripción general de la oferta. Estructura búsquedas y páginas de aterrizaje para perfumes y decants masculinos, femeninos y unisex, además de árabes, diseñador y nicho; evita páginas delgadas o duplicadas.
+
+Investiga búsquedas relevantes del mercado peruano relacionadas con decants, perfumes árabes, perfumes originales, perfumería nicho y perfumes de diseñador.
+
+No generes testimonios, valoraciones o disponibilidad falsa en los datos estructurados.
+
+---
+
+# 13. RENDIMIENTO Y OPTIMIZACIÓN
+
+La web debe sentirse rápida y fluida, incluso en celulares de gama media.
+
+Establece objetivos verificables:
+
+- Lighthouse Performance: objetivo de 90 o más.
+- Lighthouse Accessibility: objetivo de 95 o más.
+- Lighthouse Best Practices: objetivo de 95 o más.
+- Lighthouse SEO: objetivo de 95 o más.
+- LCP: 2,5 segundos o menos.
+- INP: 200 milisegundos o menos.
+- CLS: 0,1 o menos.
+
+Estas métricas deben evaluarse con herramientas adecuadas; distingue resultados de laboratorio y datos de usuarios reales.
+
+Optimiza:
+
+- JavaScript.
+- CSS.
+- Fotografías.
+- Fuentes.
+- Recursos externos.
+- Imágenes del hero.
+- Lazy loading.
+- Caché.
+- Layout.
+- Tiempo de interacción.
+- Animaciones.
+
+No sacrifiques la estética, pero encuentra soluciones visuales que mantengan un rendimiento excelente.
+
+Documenta las métricas medidas y los puntos pendientes.
+
+---
+
+# 14. ACCESIBILIDAD, SEGURIDAD Y CALIDAD
+
+### Accesibilidad
+
+Aplica WCAG 2.2 nivel AA como objetivo.
+
+Revisa:
+
+- Contraste.
+- Navegación por teclado.
+- Foco visible.
+- Etiquetas.
+- Texto alternativo.
+- Estructura semántica.
+- Uso con lector de pantalla.
+- Estados de error.
+- Controles de carruseles.
+- Movimiento reducido.
+
+### Seguridad
+
+- No expongas API keys privadas.
+- No incluyas credenciales en el repositorio.
+- No coloques secretos en JavaScript público.
+- No uses dependencias innecesarias.
+- Evita inyecciones de HTML.
+- Sanitiza contenido externo cuando corresponda.
+- Valida las entradas de usuario.
+- No simules mecanismos de autenticación.
+- Documenta las limitaciones de seguridad de una web estática.
+- Investiga las políticas de seguridad y privacidad aplicables.
+
+---
+
+# 15. QA: PRUEBAS REALES COMO USUARIO
+
+Actúa también como un QA Engineer senior.
+
+No basta con revisar que el código compile.
+
+Abre la página y úsala como un cliente real.
+
+Prueba como mínimo:
+
+1. Entrar desde un celular.
+2. Navegar por todas las secciones.
+3. Abrir el menú móvil.
+4. Utilizar la búsqueda.
+5. Aplicar y combinar filtros.
+6. Restablecer filtros.
+7. Explorar las categorías.
+8. Abrir fichas individuales.
+9. Cambiar presentaciones.
+10. Verificar cambios de precio.
+11. Comprobar productos agotados.
+12. Añadir productos al carrito.
+13. Cambiar cantidades.
+14. Eliminar productos.
+15. Actualizar la página y comprobar persistencia.
+16. Finalizar una solicitud mediante WhatsApp.
+17. Completar el recomendador.
+18. Reiniciar el recomendador.
+19. Navegar por contenido editorial.
+20. Comprobar todos los enlaces.
+21. Validar imágenes.
+22. Revisar formularios.
+23. Probar navegación por teclado.
+24. Revisar estados vacíos y errores.
+25. Verificar scroll y transiciones.
+26. Comprobar las rutas directas después de actualizar el navegador.
+27. Probar un despliegue de producción o vista previa.
+
+### Pruebas visuales
+
+Comprueba:
+
+- Elementos superpuestos.
+- Texto cortado.
+- Fotografías deformadas.
+- Espacios inconsistentes.
+- Contrastes deficientes.
+- Menús ocultos.
+- Botones desalineados.
+- Problemas de scroll.
+- Saltos de contenido.
+- Transiciones bruscas.
+- Animaciones que siguen ejecutándose innecesariamente.
+- Errores en navegadores móviles.
+- Diferencias visuales entre resoluciones.
+
+Realiza capturas de los principales breakpoints y verifica el resultado visual.
+
+### Automatización
+
+Implementa pruebas apropiadas para:
+
+- Reglas de catálogo.
+- Variantes.
+- Cálculo de totales.
+- Recomendaciones.
+- Flujo de compra.
+- Navegación.
+- Casos límite.
+
+Utiliza pruebas E2E cuando el entorno lo permita.
+
+No declares que todo funciona si no has ejecutado las verificaciones.
+
+---
+
+# 16. METODOLOGÍA DE EJECUCIÓN
+
+Trabaja siguiendo estas fases.
+
+## Fase 1 — Investigación
+
+- Investiga la marca.
+- Analiza su identidad.
+- Examina el mercado.
+- Realiza benchmarking.
+- Identifica las necesidades del negocio.
+- Documenta información confirmada y pendiente.
+
+## Fase 2 — Estrategia UX/UI
+
+- Define público objetivo.
+- Define propuesta de valor.
+- Construye sitemap.
+- Diseña flujos de navegación y compra.
+- Define jerarquía de contenidos.
+- Establece prioridades funcionales.
+
+## Fase 3 — Dirección creativa
+
+- Propón tres conceptos visuales.
+- Selecciona el más adecuado.
+- Define el sistema de diseño.
+- Diseña el hero.
+- Define estilo fotográfico.
+- Especifica animaciones.
+
+## Fase 4 — Implementación
+
+Desarrolla:
+
+- Layout global.
+- Header y navegación.
+- Hero.
+- Home.
+- Catálogo.
+- Fichas.
+- Filtros.
+- Búsqueda.
+- Carrito.
+- Packs.
+- Recomendador.
+- Contenido editorial.
+- Páginas institucionales.
+- Footer.
+- Diseño móvil.
+
+## Fase 5 — Refinamiento
+
+Revisa minuciosamente:
+
+- Tipografía.
+- Espaciados.
+- Fotografía.
+- Jerarquía.
+- Colores.
+- Animaciones.
+- Microinteracciones.
+- Adaptaciones responsive.
+- Rendimiento.
+
+## Fase 6 — QA y optimización
+
+Ejecuta las pruebas necesarias.
+
+Corrige todos los errores identificados que estén dentro del alcance y vuelve a comprobar las funcionalidades afectadas.
+
+## Fase 7 — GitHub y publicación
+
+- Organiza el repositorio.
+- Verifica los archivos.
+- Prepara el README.
+- Documenta las instrucciones de edición.
+- Configura el despliegue.
+- Comprueba rutas y recursos.
+- Verifica HTTPS.
+- Prueba el sitio publicado.
+
+No publiques información comercial no validada.
+
+Si faltan permisos, accesos o datos imprescindibles, identifica exactamente el bloqueo y continúa con las tareas independientes.
+
+---
+
+# 17. ENTREGABLES OBLIGATORIOS
+
+Al terminar, entrega:
+
+**1. Investigación**
+
+Informe resumido de marca y competencia, con fuentes verificables.
+
+**2. Arquitectura**
+
+Sitemap definitivo y estructura de navegación.
+
+**3. Diseño**
+
+Sistema visual, concepto elegido y explicación de decisiones.
+
+**4. Código**
+
+Proyecto organizado, funcional y listo para mantenimiento.
+
+**5. Catálogo**
+
+Estructura editable para productos, precios, imágenes y variantes.
+
+**6. Recomendador**
+
+Implementación real con reglas verificables.
+
+**7. QA**
+
+Resumen de pruebas ejecutadas, resultados, errores corregidos y pendientes.
+
+**8. Rendimiento**
+
+Métricas obtenidas y optimizaciones realizadas.
+
+**9. Despliegue**
+
+Configuración e instrucciones de publicación.
+
+**10. Mantenimiento**
+
+README que explique cómo modificar:
+
+- Logo.
+- Colores.
+- Imágenes.
+- Productos.
+- Precios.
+- Disponibilidad.
+- Promociones.
+- WhatsApp.
+- Información comercial.
+- Contenido editorial.
+
+---
+
+# 18. CRITERIOS DE ACEPTACIÓN
+
+No consideres la misión terminada únicamente porque existe una página visualmente agradable.
+
+La entrega debe cumplir los siguientes criterios:
+
+- La identidad de marca está basada en información verificada.
+- La tienda LEE-ACH incluye las colecciones masculinas, femeninas y unisex sin excluir ninguna por la leyenda FOR MEN del logo entregado.
+- Los únicos tamaños de decant ofrecidos por defecto son 3, 5, 10 y 30 ml, con precios y stock independientes.
+- El logo principal de LEE-ACH no contiene FOR MEN, según la aprobación del propietario; mantiene el monograma y la corona, y los originales permanecen preservados.
+- La página presenta una dirección artística consistente.
+- El hero tiene calidad visual profesional.
+- La home está estructurada según necesidades comerciales reales.
+- La navegación funciona.
+- El catálogo funciona.
+- Los filtros funcionan.
+- Los productos admiten variantes.
+- Los precios se actualizan correctamente al cambiar de presentación.
+- Los productos agotados se identifican.
+- El carrito calcula correctamente.
+- El recomendador produce resultados coherentes.
+- WhatsApp recibe la solicitud con los datos comerciales correctos.
+- Todas las páginas se adaptan a dispositivos móviles.
+- No hay errores críticos de consola.
+- No existen recursos rotos.
+- Las animaciones no producen lag perceptible.
+- Se respetan requisitos básicos de accesibilidad.
+- La configuración de alojamiento es compatible con el uso previsto.
+- Las pruebas están documentadas.
+- La web está preparada para mantenimiento y futuras ampliaciones.
+
+Si una función requiere backend, credenciales o servicios externos, explica la limitación y no simules su funcionamiento.
+
+# INSTRUCCIÓN FINAL
+
+**Quiero que trabajes con criterio de director creativo, diseñador UX/UI, desarrollador senior y QA profesional.**
+
+Investiga antes de decidir.
+
+Diseña con intención.
+
+Desarrolla con calidad.
+
+Prueba todas las funcionalidades.
+
+Refina los detalles hasta obtener una experiencia coherente, elegante y convincente.
+
+Mi referencia principal es el impacto visual de Ávila Parfums y Passim Perú, pero quiero una identidad propia que pueda competir en calidad con las mejores boutiques digitales de perfumería.
+
+La web no debe sentirse como una tienda común. Debe transmitir el valor de las fragancias, despertar interés y facilitar una compra confiable.
+
+**Empieza investigando la marca y las referencias. Después presenta las decisiones principales y continúa con el desarrollo real. No te detengas en una propuesta teórica.**
+
+Prioriza una web premium, rápida, moderna, cálida, profesional y verdaderamente funcional.
